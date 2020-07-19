@@ -1,0 +1,10 @@
+# folders 
+robotworker.egg-info/*
+build/*
+data/*
+output/*
+# files
+*.egg
+*.pyc
+*.log
+*.env
