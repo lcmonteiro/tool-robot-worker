@@ -6,6 +6,7 @@
 # #######################################################################################
 # imports
 from setuptools import setup, find_packages
+from sys import platform
 # -----------------------------------------------------------------------------
 # helpers
 # -----------------------------------------------------------------------------
@@ -28,7 +29,7 @@ setup(
     install_requires=[
         'robotremoteserver',
         'robotframework',
-        'pywin32',
+        'pywin32' if platform == 'win32' else '',
         'pyyaml',
         'click',
         'psutil'
