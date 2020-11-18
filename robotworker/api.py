@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 ###################################################################################################
-###-           {API that sends diagnostic messages}                                            ##-#
-###-Diagnostic Messages                                                                        ##-#
+###-           {API Robot Worker}                                                              ##-#
+###-Base Robot Tool                                                                            ##-#
 ###-Authors:   Luis Monteiro                                                                   ##-#
 ###-Reviewers:                                                                                 ##-#
 ###################################################################################################
